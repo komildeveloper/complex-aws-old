@@ -28,4 +28,5 @@ jobs:
         with:
           context: client
           file: client/Dockerfile.dev
+          push: false
           tags: ${{ secrets.DOCKER_HUB_USERNAME }}/react-test:latest
